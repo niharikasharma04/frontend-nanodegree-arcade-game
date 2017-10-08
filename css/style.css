@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700,500);
+
+body {
+  text-align: center;
+}
+
+span {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.message-display {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #000;
+}
+
+#life {
+  max-width: 40px;
+}
+
+.heart {
+  max-width: 35vw;
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+#score {
+  width: 150px;
+}
+
+#displayStatus {
+  width: 130px;
+}
+
+body {
+  text-align: center;
+  opacity: 1;
+  background: #fc00ff;
+    /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #997a0f, #ffeaa3);
+  background: linear-gradient(to left, #997a0f, #ffeaa3);
+}
+
